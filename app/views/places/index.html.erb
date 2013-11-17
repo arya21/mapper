@@ -1,0 +1,26 @@
+<h1> Places controller </h1>
+
+<div>
+
+	<% if @place.present? %>
+
+	Title: <%= @place.title %>
+
+	<br/>
+
+	Address: <%= @place.address %>
+
+	<% else %>
+
+	<h2>
+
+		Enter a place because we dont have any.
+
+	</h2>
+
+	<% end %>
+
+
+
+
+</div>
