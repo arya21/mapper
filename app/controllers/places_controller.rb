@@ -11,7 +11,7 @@ def new
 
 end
 
-def update
+def create
 
 #Place.create(:title => "  ", :address => "    ")
 
