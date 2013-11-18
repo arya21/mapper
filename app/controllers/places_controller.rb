@@ -6,8 +6,8 @@ end
 
 def new
 
-@place=Place.last
-#@place=Place.new
+#@place=Place.last
+@place=Place.new
 
 end
 
